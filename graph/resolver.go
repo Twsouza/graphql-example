@@ -8,4 +8,5 @@ import "github.com/Twsouza/graphql-example/internal/database"
 
 type Resolver struct {
 	CategoryDB *database.Category
+	CourseDB   *database.Course
 }
